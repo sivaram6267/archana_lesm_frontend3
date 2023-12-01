@@ -1,0 +1,17 @@
+.form1 {
+  max-width: 1000px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.submit2 {
+  margin-left: 600px;
+  width: 150px !important;
+  margin-top: 50px !important;
+  border-radius: 0%;
+}
+.cancel2 {
+  width: 150px !important;
+  margin-top: 51px;
+  border-radius: 0%;
+  background-color: #ff0303;
+}

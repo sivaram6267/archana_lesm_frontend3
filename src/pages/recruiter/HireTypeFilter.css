@@ -1,0 +1,99 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #E3F2FD;
+}
+
+.hireType-select-menu {
+    width: 226px;
+    margin: 40px 10px 10px 10px;
+    position: relative;
+}
+
+.hireType-select-menu .hireType-select-btn {
+    display: flex;
+    height: 28px;
+    background: #fff;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.hireType-select-btn i {
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.hireType-select-menu.active .hireType-select-btn i {
+    transform: rotate(-180deg);
+}
+
+.hireType-select-menu .hireType-options {
+    position: absolute;
+    width: 227px;
+    background-color: #fff;
+    padding: 0px;
+    margin-top: 11px;
+    height: 110px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1;
+}
+
+.hireType-select-menu.active .hireType-options {
+    display: block;
+}
+
+.hireType-options .hireType-option {
+    display: flex;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+
+.hireType-options .hireType-option:hover {
+    background: #F2F2F2;
+}
+
+.hireType-option i {
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.hireType-option .hireType-option-text {
+    font-size: 14px;
+    color: #333;
+    margin: 10px;
+}
+.hireType-options-scroll{
+    max-height: 150px; /* Set your desired height */
+    overflow-y: auto;
+    height:90%;
+    margin: 8px 5px 8px 10px;
+}
+.hireType-options-scroll::-webkit-scrollbar{
+    width: 8px;
+    height: 60px;
+    border-radius: 100px;
+    opacity: 1;
+    
+}

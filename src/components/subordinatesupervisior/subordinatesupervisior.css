@@ -1,0 +1,10 @@
+.formsec {
+  max-width: 1000px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.submit {
+  margin-left: 600px;
+  width: 150px !important;
+  margin-top: 50px !important;
+}

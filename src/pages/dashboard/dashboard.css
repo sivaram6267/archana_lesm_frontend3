@@ -1,0 +1,29 @@
+.dashboard {
+  /* animation: upDown 1s 0.5s 1 linear; */
+  display: flex;
+  flex-wrap: wrap;
+  max-width: fit-content;
+  align-items: center;
+
+  /* background: #fcfeff;
+  background: linear-gradient(to bottom right, #fcfeff, #8a8be9);
+  background: -moz-linear-gradient(top left, #fcfeff, #8a8be9);
+  background: -webkit-linear-gradient(top left, #fcfeff, #8a8be9);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  border-radius: 5px;
+}
+#searchForm {
+  float: right;
+}
+#search {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  align-items: right !important;
+  border-radius: 5px;
+  border: 2px solid #152d53;
+}
+
+.searchclick {
+  border-radius: 5px;
+  border-width: 1px;
+}

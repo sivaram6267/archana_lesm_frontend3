@@ -1,0 +1,61 @@
+@keyframes upDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  25% {
+    opacity: 0.25;
+    transform: translateY(-50px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-25px);
+  }
+  75% {
+    opacity: 0.75;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#login {
+  animation: upDown 1s 0.5s 1 linear;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 50px;
+  background: #fcfeff;
+  background: linear-gradient(to bottom right, #fcfeff, #8a8be9);
+  background: -moz-linear-gradient(top left, #fcfeff, #8a8be9);
+  background: -webkit-linear-gradient(top left, #fcfeff, #8a8be9);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+}
+.title {
+  color: #080808;
+  font-family: normal normal medium 40px/60px Poppins !important;
+}
+/* .icon {
+  width: 180px;
+  height: 60px;
+} */
+.icon:hover {
+  cursor: pointer;
+  /* background: #9dbef3;
+  border-radius: 5px; */
+}
+.login-button {
+  background-color: #152c53;
+}
+.login-button:hover {
+  background-color: #264a88;
+}
+
+@media screen and (min-width: 720px) {
+  #login {
+    align-items: center;
+    width: 500px;
+  }
+}

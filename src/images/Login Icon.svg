@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="31" viewBox="0 0 29 31">
+  <g id="Login_Icon" data-name="Login Icon" transform="translate(-1629 -66)">
+    <g id="Path_467" data-name="Path 467" transform="translate(1629 66)" fill="none">
+      <path d="M5,0H24a5,5,0,0,1,5,5V26a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" stroke="none"/>
+      <path d="M 5 3 C 3.897199630737305 3 3 3.897199630737305 3 5 L 3 26 C 3 27.1028003692627 3.897199630737305 28 5 28 L 24 28 C 25.1028003692627 28 26 27.1028003692627 26 26 L 26 5 C 26 3.897199630737305 25.1028003692627 3 24 3 L 5 3 M 5 0 L 24 0 C 26.76141929626465 0 29 2.238580703735352 29 5 L 29 26 C 29 28.76141929626465 26.76141929626465 31 24 31 L 5 31 C 2.238580703735352 31 0 28.76141929626465 0 26 L 0 5 C 0 2.238580703735352 2.238580703735352 0 5 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <path id="Icon_open-arrow-thick-right" data-name="Icon open-arrow-thick-right" d="M12.687,0V3.359H3.6V6.718h9.092v3.359L20.3,4.988Z" transform="translate(1627.32 76.461)" fill="#fff"/>
+  </g>
+</svg>

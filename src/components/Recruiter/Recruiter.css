@@ -1,0 +1,59 @@
+textarea#jobdescription {
+    top: 283px;
+    left: 278px;
+    width: 536px;
+    height: 91px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #707070;
+    border-radius: 3px;
+    opacity: 1;
+}
+input#budget {
+    top: 439px;
+    left: 278px;
+    width: 536px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #707070;
+    border-radius: 3px;
+    opacity: 1;
+}
+select#Hiring {
+    top: 542px;
+    left: 278px;
+    width: 240px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #707070;
+    border-radius: 3px;
+    opacity: 1;
+}
+textarea.form-control {
+    top: 283px;
+    left: 279px;
+    width: 536px;
+    height: 135px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #707070;
+    border-radius: 3px;
+    opacity: 1;
+}
+button.submit4.btn.btn-primary {
+    top: 927px;
+    left: 455px;
+    width: 183px;
+    height: 47px;
+    background: #1492E6 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    padding-right: 23px;
+    /* margin-right: 39px; */
+    margin-left: 197px;
+    margin-top: 36px;
+}
+img.workers {
+    margin-left: 665px;
+    /* margin-right: 97px; */
+    margin-top: -586px;
+    /* margin-bottom: -29px; */
+  }

@@ -1,0 +1,1266 @@
+
+@media(max-width:1360px)
+{
+    .jobsPostCard {
+        display: grid;
+        grid-template-columns: 3f 1.5f 2f;
+        grid-template-rows: 80px 320px auto;
+        grid-template-areas: "jobTitle jobTitle jobTitle"
+            "jobDescription budget taggedEmployees"
+            "ticketTag ticketTag ticketTag";
+        margin: 10px 50px 10px 10px;
+        box-shadow: 0px 1px 6px #E8E5E8;
+    border: 0.5px solid #CFCFD6;
+    border-radius: 5px;
+    opacity: 1;
+    }
+    
+    .jobTitle {
+        grid-area: jobTitle;
+        background: transparent linear-gradient(278deg, #07578D 0%, #7F4B26 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 1px 6px #CFCFD6;
+        border-radius: 5px 5px 0px 0px;
+        opacity: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .jobTitle span:nth-child(1) {
+        text-align: left;
+      font-size: 19px;
+        letter-spacing: 0px;
+    
+    }
+    .jobTitle span:nth-child(1) {
+        text-align: left;
+      font-size: 19px;
+        letter-spacing: 0px;
+    
+    }
+    
+    
+    
+    
+    .jobTitle label {
+        text-align: left;
+        margin-right: 10px;
+       
+        letter-spacing: 0px;
+        padding-right: -10px;
+        font-size: 16px;
+    }
+    
+    .jobTitle button {
+        width: 157px;
+        height: 40px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        margin-left: -95px;
+        font-size: 14px;
+    }
+    
+    .jobTitle button span {
+        font-size: 12px;
+        width: 141px;
+        height: 21px;
+        background: transparent url('') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    
+    }
+    
+    .jobDescription {
+        position: relative;
+        grid-area: jobDescription;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 173%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1
+    }
+    
+    .jobDescription-card {
+        position: absolute;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #E8E5E8;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        opacity: 1;
+        height: 95%;
+        width: 95%;
+        margin: 10px 10px 0px 25px;
+        padding: 10px 3px 0px 5px;
+    
+    }
+    
+    .jobDescription-card span {
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: left;
+        font: normal normal medium 18px/27px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    
+    }
+    
+    .description-scroll-container {
+        position: absolute;
+        height: 80%;
+        width: 95%;
+        overflow: auto;
+        margin: 10px 0px 10px 8px;
+        display: flex;
+    
+    
+    }
+    
+    .description-scroll-container {
+    
+        flex: 1;
+        display: flex;
+        /* Ensure the cards are displayed in a row */
+        flex-direction: column;
+        /* Display the cards in a column layout */
+        overflow: hidden;
+        overflow-y: auto;
+        /* Enable vertical scrolling for the profile cards */
+    
+    }
+    
+    .description-scroll-container::-webkit-scrollbar {
+        top: 213px;
+        left: 461px;
+        width: 8px;
+        height: 88px;
+        border-radius: 100px;
+        opacity: 1;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 5px;
+        height: 90%;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #707070;
+        border-radius: 5px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #9ba9e8;
+    }
+    
+    .description {
+        padding: 10px;
+        /* Optional padding for content */
+    }
+    
+    .description p {
+        text-align: left;
+        font: normal normal normal 12px/18px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+    }
+    .description_divider{
+        border-bottom: 1px solid #ccc;
+        margin-left: -1px;
+        width: 105%;
+        margin-top: 10px;
+
+    }
+    .budget {
+        grid-area: budget;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 153%;
+        position: relative;
+        justify-self: self-start;
+        /* Remove the fixed width */
+    }
+    
+    .budgetCard {
+        position: absolute;
+        height: 95%;
+        width: 50%;
+        margin: 11px 10px 10px 155px;
+        position: absolute;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #00000029;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        text-align: left;
+        padding: 26px;
+        opacity: 1;
+        z-index: 1;
+    }
+    
+    .budgerCardRow1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    
+    .budgerCardRow2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .budgerCardRow3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .budgetCard-divider {
+        border-bottom: 1px solid #ccc;
+        margin-left: -1px;
+        width: 105%;
+        margin-top: 10px;
+    }
+    
+    .budgerCardRow1 .dateStatus {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow1 .date {
+        font: normal normal normal 12px/25px Poppins;
+        letter-spacing: 0px;
+        color: #717177;
+        opacity: 1;
+    }
+    
+    .budgerCardRow2 .dateStatus {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow2 .date {
+        font: normal normal normal 12px/25px Poppins;
+        letter-spacing: 0px;
+        color: #717177;
+        opacity: 1;
+    }
+    
+    .budgerCardRow3 h4 {
+        font-size: 20px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow3 span {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #06511D;
+        opacity: 1;
+    }
+    
+    .taggedEmployees {
+        grid-area: taggedEmployees;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 82%;
+        text-align: center;
+        justify-self: end;
+    }
+    
+    .taggedEmployees-card {
+        height: 95%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #00000029;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        opacity: 1;
+        margin: 10px 10px 10px 10px;
+    }
+    
+    .taggedEmployees-card h6 {
+        margin-top: 8px;
+        font: normal normal 600 16px/27px Poppins;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .taggedEmpRow {
+        display: flex;
+        justify-content: space-around;
+        font: normal normal 600 14px/21px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    
+    }
+    
+    .taggdeEmp-divider {
+        border-bottom: 1px solid #ccc;
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 10px;
+    
+    }
+    
+    .taggedEmployeesList div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+        text-align: left;
+    }
+    
+    .listRow .name {
+    
+        width: 50%;
+        text-overflow: ellipsis;
+        text-align: justify;
+        font-size: 12px;
+        letter-spacing: 0px;
+        color: #A24FA2;
+        opacity: 1;
+        margin-left: 69px;
+    }
+    
+    .listRow .id {
+    
+        width: 50%;
+        text-overflow: ellipsis;
+        text-align: center;
+        font-size: 12px;
+        font: normal normal medium 12px/18px Poppins;
+        letter-spacing: 0px;
+        color: #A24FA2;
+        opacity: 1;
+        opacity: 1;
+    }
+    
+    .taggedEmployees-scroll-container {
+        max-height: 200px;
+        /* Adjust the maximum height as needed */
+        overflow-y: auto;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 5px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-thumb {
+        background: #707070;
+        border-radius: 5px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-thumb:hover {
+        background-color: #1492E6;
+    
+    }
+    
+    .ticketTag {
+        grid-area: ticketTag;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 100%;
+        height: 98%;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+      
+    border-radius: 5px;
+    }
+    
+    .ticketTag .ticketNumber h6 {
+        text-align: left;
+        font: normal normal 600 14px/25px Poppins;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .ticketTag .ticketNumber span {
+        margin-left: 10px;
+        text-align: left;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .profileButtons {
+        width: 113px;
+        height: 27px;
+        border: 1px solid #1492E6;
+        margin: 0px 10px 10px 0px;
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .profileButtons span {
+        text-align: left;
+        font-size: 12px;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+
+}
+/* I have changed the JobDescrptn , budget, taggedEmplyes width after integration only for 1360 to 14676 need to change for max 1360 scrn*/
+@media (min-width:1360px) and (max-width: 1476px) {
+    .jobsPostCard {
+        display: grid;
+        grid-template-columns: 3f 1.5f 2f;
+        grid-template-rows: 80px 320px auto;
+        grid-template-areas: "jobTitle jobTitle jobTitle"
+            "jobDescription budget taggedEmployees"
+            "ticketTag ticketTag ticketTag";
+        margin: 10px 50px 10px 10px;
+        box-shadow: 0px 1px 6px #E8E5E8;
+    border: 0.5px solid #CFCFD6;
+    border-radius: 5px;
+    opacity: 1;
+    }
+    
+    .jobTitle {
+        grid-area: jobTitle;
+        background: transparent linear-gradient(278deg, #07578D 0%, #7F4B26 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 1px 6px #CFCFD6;
+        border-radius: 5px 5px 0px 0px;
+        opacity: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .jobTitle span:nth-child(1) {
+        text-align: left;
+      font-size: 19px;
+        letter-spacing: 0px;
+    
+    }
+    .jobTitle span:nth-child(1) {
+        text-align: left;
+      font-size: 19px;
+        letter-spacing: 0px;
+    
+    }
+  .dResume
+    {
+      text-decoration: none !important;
+        color: black !important;
+    }
+    
+    
+    
+    .jobTitle label {
+        text-align: left;
+        margin-right: 10px;
+       
+        letter-spacing: 0px;
+        padding-right: -10px;
+        font-size: 16px;
+    }
+    
+    .jobTitle button {
+        width: 157px;
+        height: 40px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        margin-left: -95px;
+        font-size: 14px;
+    }
+    
+    .jobTitle button span {
+        font-size: 12px;
+        width: 141px;
+        height: 21px;
+        background: transparent url('') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    
+    }
+    
+    .jobDescription {
+        position: relative;
+        grid-area: jobDescription;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 158%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         z-index: 1;
+    }
+    
+    .jobDescription-card {
+        position: absolute;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #E8E5E8;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        opacity: 1;
+        height: 95%;
+        width: 95%;
+        margin: 10px 10px 0px 25px;
+        padding: 10px 3px 0px 5px;
+    
+    }
+    
+    .jobDescription-card span {
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: left;
+        font: normal normal medium 18px/27px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    
+    }
+    
+    .description-scroll-container {
+        position: absolute;
+        height: 80%;
+        width: 95%;
+        overflow: auto;
+        margin: 10px 0px 10px 8px;
+        display: flex;
+    
+    
+    }
+    
+    .description-scroll-container {
+    
+        flex: 1;
+        display: flex;
+        /* Ensure the cards are displayed in a row */
+        flex-direction: column;
+        /* Display the cards in a column layout */
+        overflow: hidden;
+        overflow-y: auto;
+        /* Enable vertical scrolling for the profile cards */
+    
+    }
+    
+    .description-scroll-container::-webkit-scrollbar {
+        top: 213px;
+        left: 461px;
+        width: 8px;
+        height: 88px;
+        border-radius: 100px;
+        opacity: 1;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 5px;
+        height: 90%;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #707070;
+        border-radius: 5px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #9ba9e8;
+    }
+    
+    .description {
+        padding: 10px;
+        /* Optional padding for content */
+    }
+    
+    .description p {
+        text-align: left;
+        font: normal normal normal 12px/18px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+    }
+    .description_divider{
+        border-bottom: 1px solid #ccc;
+        margin-left: 9px;
+        width: 94%;
+        margin-top: 10px;
+    }
+    .budget {
+        grid-area: budget;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 153%;
+        position: relative;
+        justify-self: self-start;
+    }
+    
+    .budgetCard {
+        position: absolute;
+        height: 95%;
+        width: 40%;
+        margin: 11px 10px 10px 175px;
+        position: absolute;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #00000029;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        text-align: left;
+        padding: 26px;
+        opacity: 1;
+        z-index: 1;;
+    }
+    
+    .budgerCardRow1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    
+    .budgerCardRow2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .budgerCardRow3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .budgetCard-divider {
+        border-bottom: 1px solid #ccc;
+        margin-left: -1px;
+        width: 105%;
+        margin-top: 10px;
+    }
+    
+    .budgerCardRow1 .dateStatus {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow1 .date {
+        font: normal normal normal 12px/25px Poppins;
+        letter-spacing: 0px;
+        color: #717177;
+        opacity: 1;
+    }
+    
+    .budgerCardRow2 .dateStatus {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow2 .date {
+        font: normal normal normal 12px/25px Poppins;
+        letter-spacing: 0px;
+        color: #717177;
+        opacity: 1;
+    }
+    
+    .budgerCardRow3 h4 {
+        font-size: 20px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow3 span {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #06511D;
+        opacity: 1;
+    }
+    
+    .taggedEmployees {
+        grid-area: taggedEmployees;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 79%;
+        text-align: center;
+        justify-self: end;
+        z-index: 1;
+    }
+    
+    .taggedEmployees-card {
+        height: 95%;
+        width: 100%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #00000029;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        opacity: 1;
+        margin: 10px 10px 10px -10px;
+    }
+    
+    .taggedEmployees-card h6 {
+        margin-top: 8px;
+        font: normal normal 600 16px/27px Poppins;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .taggedEmpRow {
+        display: flex;
+        justify-content: space-around;
+        font: normal normal 600 14px/21px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    
+    }
+    
+    .taggdeEmp-divider {
+        border-bottom: 1px solid #ccc;
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 10px;
+    
+    }
+    
+    .taggedEmployeesList div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+        text-align: left;
+    }
+    
+    .listRow .name {
+    
+        width: 50%;
+        text-overflow: ellipsis;
+        text-align: justify;
+        font-size: 12px;
+        letter-spacing: 0px;
+        color: #A24FA2;
+        opacity: 1;
+        margin-left: 69px;
+    }
+    
+    .listRow .id {
+    
+        width: 50%;
+        text-overflow: ellipsis;
+        text-align: center;
+        font-size: 12px;
+        font: normal normal medium 12px/18px Poppins;
+        letter-spacing: 0px;
+        color: #A24FA2;
+        opacity: 1;
+        opacity: 1;
+    }
+    
+    .taggedEmployees-scroll-container {
+        max-height: 200px;
+        /* Adjust the maximum height as needed */
+        overflow-y: auto;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 5px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-thumb {
+        background: #707070;
+        border-radius: 5px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-thumb:hover {
+        background-color: #1492E6;
+    
+    }
+    
+    .ticketTag {
+        grid-area: ticketTag;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 100%;
+        height: 98%;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+      
+    border-radius: 5px;
+    }
+    
+    .ticketTag .ticketNumber h6 {
+        text-align: left;
+        font: normal normal 600 14px/25px Poppins;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .ticketTag .ticketNumber span {
+        margin-left: 10px;
+        text-align: left;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .profileButtons {
+        width: 113px;
+        height: 27px;
+        border: 1px solid #1492E6;
+        margin: 0px 10px 10px 0px;
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .profileButtons span {
+        text-align: left;
+        font-size: 12px;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+}
+
+@media (min-width:1477px) and (max-width:3000px)
+{
+    .jobsPostCard {
+        display: grid;
+        grid-template-columns: 3f 1.5f 2f;
+        grid-template-rows: 80px 320px auto;
+        grid-template-areas: "jobTitle jobTitle jobTitle"
+            "jobDescription budget taggedEmployees"
+            "ticketTag ticketTag ticketTag";
+        margin: 10px 50px 10px 10px;
+        box-shadow: 0px 1px 6px #E8E5E8;
+    border: 0.5px solid #CFCFD6;
+    border-radius: 5px;
+    opacity: 1;
+    }
+    
+    .jobTitle {
+        grid-area: jobTitle;
+        background: transparent linear-gradient(278deg, #07578D 0%, #7F4B26 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 1px 6px #CFCFD6;
+        border-radius: 5px 5px 0px 0px;
+        opacity: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .jobTitle span:nth-child(1) {
+        text-align: left;
+      font-size: 19px;
+        letter-spacing: 0px;
+    
+    }
+    .jobTitle span:nth-child(1) {
+        text-align: left;
+      font-size: 19px;
+        letter-spacing: 0px;
+    
+    }
+    
+    
+    
+    
+    .jobTitle label {
+        text-align: left;
+        margin-right: 10px;
+       
+        letter-spacing: 0px;
+        padding-right: -10px;
+        font-size: 16px;
+    }
+    
+    .jobTitle button {
+        width: 157px;
+        height: 40px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        margin-left: -95px;
+        font-size: 14px;
+    }
+    
+    .jobTitle button span {
+        font-size: 12px;
+        width: 141px;
+        height: 21px;
+        background: transparent url('') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    
+    }
+    
+    .jobDescription {
+        position: relative;
+        grid-area: jobDescription;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 147%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1
+    }
+    
+    .jobDescription-card {
+        position: absolute;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #E8E5E8;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        opacity: 1;
+        height: 95%;
+        width: 95%;
+        margin: 10px 10px 0px 25px;
+        padding: 10px 3px 0px 5px;
+    
+    }
+    
+    .jobDescription-card span {
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: left;
+        font: normal normal medium 18px/27px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    
+    }
+    
+    .description-scroll-container {
+        position: absolute;
+        height: 80%;
+        width: 95%;
+        overflow: auto;
+        margin: 10px 0px 10px 8px;
+        display: flex;
+    
+    
+    }
+    
+    .description-scroll-container {
+    
+        flex: 1;
+        display: flex;
+        /* Ensure the cards are displayed in a row */
+        flex-direction: column;
+        /* Display the cards in a column layout */
+        overflow: hidden;
+        overflow-y: auto;
+        /* Enable vertical scrolling for the profile cards */
+    
+    }
+    
+    .description-scroll-container::-webkit-scrollbar {
+        top: 213px;
+        left: 461px;
+        width: 8px;
+        height: 88px;
+        border-radius: 100px;
+        opacity: 1;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 5px;
+        height: 90%;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #707070;
+        border-radius: 5px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #9ba9e8;
+    }
+    
+    .description {
+        padding: 10px;
+        /* Optional padding for content */
+    }
+    
+    .description p {
+        text-align: left;
+        font: normal normal normal 12px/18px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+    }
+    .description_divider{
+        border-bottom: 1px solid #ccc;
+        margin-left: 9px;
+        width: 94%;
+        margin-top: 10px;
+
+    }
+    
+    .budget {
+        grid-area: budget;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 4%;
+        position: relative;
+        justify-self: self-start;
+        /* Remove the fixed width */
+    }
+    
+    .budgetCard {
+        position: absolute;
+        height: 95%;
+        width: 35%;
+        margin: 11px 10px 10px 187px;
+        position: absolute;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #00000029;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        text-align: left;
+        padding: 26px;
+        opacity: 1;
+        z-index: 1;
+    }
+    
+    .budgerCardRow1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    
+    .budgerCardRow2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .budgerCardRow3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .budgetCard-divider {
+        border-bottom: 1px solid #ccc;
+        margin-left: -1px;
+        width: 105%;
+        margin-top: 10px;
+    }
+    
+    .budgerCardRow1 .dateStatus {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow1 .date {
+        font: normal normal normal 12px/25px Poppins;
+        letter-spacing: 0px;
+        color: #717177;
+        opacity: 1;
+    }
+    
+    .budgerCardRow2 .dateStatus {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow2 .date {
+        font: normal normal normal 12px/25px Poppins;
+        letter-spacing: 0px;
+        color: #717177;
+        opacity: 1;
+    }
+    
+    .budgerCardRow3 h4 {
+        font-size: 20px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .budgerCardRow3 span {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #06511D;
+        opacity: 1;
+    }
+    
+    .taggedEmployees {
+        grid-area: taggedEmployees;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 82%;
+        text-align: center;
+        justify-self: end;
+        z-index: 1;
+    }
+    
+    .taggedEmployees-card {
+        height: 95%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #00000029;
+        border: 0.5px solid #E8E5E8;
+        border-radius: 5px;
+        opacity: 1;
+        margin: 10px 10px 10px 10px;
+    }
+    
+    .taggedEmployees-card h6 {
+        margin-top: 8px;
+        font: normal normal 600 16px/27px Poppins;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .taggedEmpRow {
+        display: flex;
+        justify-content: space-around;
+        font: normal normal 600 14px/21px Poppins;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    
+    }
+    
+    .taggdeEmp-divider {
+        border-bottom: 1px solid #ccc;
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 10px;
+    
+    }
+    
+    .taggedEmployeesList div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+        text-align: left;
+    }
+    
+    .listRow .name {
+    
+        width: 50%;
+        text-overflow: ellipsis;
+        text-align: justify;
+        font-size: 12px;
+        letter-spacing: 0px;
+        color: #A24FA2;
+        opacity: 1;
+        margin-left: 69px;
+    }
+    
+    .listRow .id {
+    
+        width: 50%;
+        text-overflow: ellipsis;
+        text-align: center;
+        font-size: 12px;
+        font: normal normal medium 12px/18px Poppins;
+        letter-spacing: 0px;
+        color: #A24FA2;
+        opacity: 1;
+        opacity: 1;
+    }
+    
+    .taggedEmployees-scroll-container {
+        max-height: 200px;
+        /* Adjust the maximum height as needed */
+        overflow-y: auto;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 5px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-thumb {
+        background: #707070;
+        border-radius: 5px;
+    }
+    
+    .taggedEmployees-scroll-container::-webkit-scrollbar-thumb:hover {
+        background-color: #1492E6;
+    
+    }
+    
+    .ticketTag {
+        grid-area: ticketTag;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        width: 100%;
+        height: 98%;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+      
+    border-radius: 5px;
+    }
+    
+    .ticketTag .ticketNumber h6 {
+        text-align: left;
+        font: normal normal 600 14px/25px Poppins;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .ticketTag .ticketNumber span {
+        margin-left: 10px;
+        text-align: left;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #0C0C0F;
+        opacity: 1;
+    }
+    
+    .profileButtons {
+        width: 113px;
+        height: 27px;
+        border: 1px solid #1492E6;
+        margin: 0px 10px 10px 0px;
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+    
+    .profileButtons span {
+        text-align: left;
+        font-size: 12px;
+        letter-spacing: 0px;
+        color: #1492E6;
+        opacity: 1;
+    }
+}

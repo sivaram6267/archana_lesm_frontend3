@@ -1,0 +1,29 @@
+a.px-2.ere.btn.btn-danger {
+  top: 482px;
+  left: 363px;
+  width: 125px;
+  /* height: 47px; */
+  background: #ff0303 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+button.btn-signup.px-2.exrc.btn.btn-primary {
+  margin-right: 39px;
+  top: 482px;
+  left: 140px;
+  width: 125px;
+  /* height: 47px; */
+  background: #1492e6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+h1.title.text-center.add {
+  padding-bottom: 82px;
+  border-radius: 0px !important;
+}
+img.work {
+  margin-left: 665px;
+  margin-right: 97px;
+  /* margin-top: -198px; */
+  /* margin-bottom: -29px; */
+}

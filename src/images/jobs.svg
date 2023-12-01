@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="newspaper" transform="translate(-1.5 -6.75)">
+    <path id="Path_381" data-name="Path 381" d="M4.5,6.75V23.924a.986.986,0,0,1-.833,1.087.986.986,0,0,1-.833-1.087V11.1H1.5V23.924c0,1.56.971,2.824,2.167,2.826H19.333c1.2,0,2.165-1.266,2.167-2.826V6.75ZM20.167,23.924a.987.987,0,0,1-.833,1.087H5.667a3.566,3.566,0,0,0,.167-1.087V8.489H20.167Z" fill="#cfcfd6"/>
+    <path id="Path_382" data-name="Path 382" d="M20.25,12.75h-6v8.7h6Zm-1.333,6.957H15.583V14.489h3.333Z" transform="translate(-7.083 -2.522)" fill="#cfcfd6"/>
+    <path id="Path_383" data-name="Path 383" d="M30.75,12.75h4.333v1.739H30.75Z" transform="translate(-16.25 -2.522)" fill="#cfcfd6"/>
+    <path id="Path_384" data-name="Path 384" d="M30.75,18.75h4.333v1.739H30.75Z" transform="translate(-16.25 -5.043)" fill="#cfcfd6"/>
+    <path id="Path_385" data-name="Path 385" d="M30.75,24.75h4.333v1.739H30.75Z" transform="translate(-16.25 -7.565)" fill="#cfcfd6"/>
+  </g>
+</svg>

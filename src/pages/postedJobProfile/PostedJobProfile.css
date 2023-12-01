@@ -1,0 +1,213 @@
+.modelHeading{
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 500px;
+    margin: 20px;
+    background-color: white;
+    transition: transform 0.3s;
+    flex-wrap: wrap;
+    color: var(--white);
+	background-color: var(--bg-blue);
+	font-family: var(--base-font);
+	
+
+	width: 100vw;
+	min-height: 100vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+  }
+  card:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .card .info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card .info h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card .info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card .manager {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .job-card  .name {
+    font-size: 14px; 
+    font-weight: bold;
+    color: #333;
+  text-align: justify;
+  text-align: left;
+  padding-bottom: 5px;
+  
+    }
+  
+  
+  .employee-card {
+    background: linear-gradient(to bottom, #e1f5fe, #ffffff);
+    /* Other styles */
+  }
+  .employee-card .p.style{
+    border-radius: 25px;
+  }
+  
+  
+  
+
+  
+  .card-template {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+   
+    padding-top: 45px;
+    width: 300px!important;
+    height: 350px!important;
+    /* width: 18rem; */
+    animation: upDown 1s 0.5s 1 linear;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align:var()!important;
+  }
+  
+  .card-template:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    
+  }
+  .employees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: #5485d8;
+    cursor: pointer;
+    margin-bottom: -20px;
+    /* margin-top: 5px; */
+  }
+  .employees:hover {
+    color: #1c5ac5;
+    
+  }
+  
+  .card-btn {
+    background-color: #224685;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .card-btn:hover {
+    background-color: #4480e9;
+  }
+  .status{
+    justify-self: center;
+  }
+  
+  
+  
+  
+  .card-image {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    top: -50px;
+  }
+  
+  .card-template {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+    padding-top: 45px;
+    width: fit-content;
+    /* width: 18rem; */
+    animation: upDown 1s 0.5s 1 linear;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-template:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    /* width: 19rem;
+    height: 22rem; */
+    /* height: 15rem; */
+  }
+  .employees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: #5485d8;
+    cursor: pointer;
+    margin-bottom: -20px;
+    /* margin-top: 5px; */
+  }
+  .employees:hover {
+    color: #1c5ac5;
+   
+  }
+  
+  .card-btn {
+    background-color: #224685;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .card-btn:hover {
+    background-color: #4480e9;
+  }
+  
+body{
+
+
+  background-color: #F5F5F5;
+}
+
+.card{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+  
+  overflow: hidden;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+}
+
+
+
+

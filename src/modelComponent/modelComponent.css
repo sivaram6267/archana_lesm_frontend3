@@ -1,0 +1,50 @@
+.btnClose {
+  color: gray;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+.btnClose:hover {
+  color: rgba(202, 192, 192, 0.815);
+  background-color: rgb(236, 84, 84);
+}
+.modelHeading {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #152c53;
+}
+.modelHeading:hover {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #385588;
+}
+
+/* .profile-img {
+  max-width: 200px;
+  max-height: 200px;
+} */
+@media screen and (min-width: 600px) {
+  /* .profile-img {
+    max-width: 100px;
+    max-height: 100px;
+  } */
+  .break {
+    margin-top: 61px;
+  }
+}
+
+#modelSection {
+  /* animation: upDown 1s 0.5s 1 linear; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* max-width: fit-content; */
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 50px;
+  background: #fcfeff;
+  background: linear-gradient(to bottom right, #fcfeff, #8a8be9);
+  background: -moz-linear-gradient(top left, #fcfeff, #8a8be9);
+  background: -webkit-linear-gradient(top left, #fcfeff, #8a8be9);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+}

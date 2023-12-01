@@ -1,0 +1,104 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #E3F2FD;
+}
+
+.Job-select-menu {
+    width: 226px;
+    margin: 40px 10px 10px 10px !important;
+    position: relative;
+}
+
+.Job-select-menu .Job-select-btn {
+    display: flex;
+    height: 28px;
+    background: #fff;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Job-select-btn i {
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.Job-select-menu.active .Job-select-btn i {
+    transform: rotate(-180deg);
+}
+
+.Job-select-menu .Job-options {
+    position: absolute;
+    width: 227px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 10px;
+    height: 133px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1;
+}
+
+.Job-select-menu.active .Job-options {
+    display: block;
+}
+
+.Job-options .Job-option {
+    display: flex;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+
+.Job-options .Job-option:hover {
+    background: #F2F2F2;
+}
+.Job-options-scroll {
+    max-height: 150px; /* Set your desired height */
+    overflow-y: auto;
+ 
+    width: 95%;
+    height: 82%;
+    margin-top: 10px;
+    margin-left: 4px;
+ 
+  }
+  .Job-options-scroll::-webkit-scrollbar{
+    width: 8px;
+        height: 60px;
+        border-radius: 100px;
+        opacity: 1;
+       
+  }
+  
+
+.Job-option i {
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.Job-option .Job-option-text {
+    font-size: 14px;
+    color: #333;
+    margin: 10px;
+}
