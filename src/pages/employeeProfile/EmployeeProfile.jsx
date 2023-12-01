@@ -487,7 +487,7 @@ function EmployeeProfile({ props }) {
                         </p>
                       </Col>
                       <Col md={4}>
-                        <p className="basicfields">Joining Date</p>
+                        <p className="basicfields">Lancesoft Joining Date</p>
                         <p className="basicdata">
                           {" "}
                           {data.detailsResponse?.joiningDate}&nbsp;
