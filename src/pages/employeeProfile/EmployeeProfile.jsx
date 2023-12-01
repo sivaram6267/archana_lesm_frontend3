@@ -486,13 +486,13 @@ function EmployeeProfile({ props }) {
                           {data.detailsResponse?.employeeId}&nbsp;
                         </p>
                       </Col>
-                      {/* <Col md={4}>
+                      <Col md={4}>
                         <p className="basicfields">Joining Date</p>
                         <p className="basicdata">
                           {" "}
                           {data.detailsResponse?.joiningDate}&nbsp;
                         </p>
-                      </Col> */}
+                      </Col>
                       <Col md={4}>
                         <p className="basicfields">Employment Type</p>
                         <p className="basicdata">
