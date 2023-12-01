@@ -986,12 +986,12 @@ function EmployeeProfile({ props }) {
                           {client.offerReleaseDate}&nbsp;
                         </p>
                       </Col>
-                      <Col md={2}>
+{/*                       <Col md={2}>
                         <p className="clientfields"> Joining Date</p>
                         <p className="clientdata">
                           {client.clientJoiningDate}&nbsp;
                         </p>
-                      </Col>
+                      </Col> */}
                       <Col md={2}>
                         <p className="clientfields">Designation at Client </p>
                         <p className="clientdata">
